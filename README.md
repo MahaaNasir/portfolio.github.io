@@ -8,7 +8,7 @@ This website highlights my projects, skills, and work experience. It is crafted 
 
 Check out the live site here:
 
-[https://mahanasir.github.io/portfolio/](https://mahanasir.github.io/portfolio/)
+[https://mahanasir.github.io/portfolio/](https://MahaaNasir.github.io/portfolio/)
 
 ## ✨ Features
 
@@ -29,4 +29,4 @@ If you have suggestions or would like to contribute to improving this portfolio,
 
 ## 📬 Get in Touch
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/mahaanasir) or check out my work on [GitHub](https://github.com/mahanasir).
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/mahaanasir) or check out my work on [GitHub](https://github.com/MahaaNasir).

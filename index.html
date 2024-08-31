@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Linking Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt Prism">
+
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" style="font-weight: bold;">Maha Nasir</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Education</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Maha Nasir</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">  
+        <div class="image-container" alt="profile picture">
+            <div class="lights"></div>
+            <div class="circle">
+              <img src="assets/icons/snap.png" alt="">
+            </div>
+            <div class="content">
+              <div class="details">
+                <p><i> Hello! &lt;I&gt; am </i></p>
+                <h2>Maha Nasir</h2>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__text">
+        <br>
+        <p class="section__text__p2"> Software & Web Application</p>
+        <h1 class="profile-title">Developer</h1>
+        <div class="btn-container">
+          <a href="assets/cv.pdf" download id="contact-btn"><i class="fa-solid fa-download"></i> Download CV</a>
+        </div>
+        <div id="socials-container">
+          <div class="contact-info-container hover-container">
+          <img
+            src="./assets/brown-icons/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/mahaanasir/', '_blank')"
+            />
+        </div>
+        <div class="contact-info-container hover-container">
+          <img
+            src="./assets/brown-icons/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/MahaaNasir', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Want to learn more about me?</p>
+      <h1 class="title">Education</h1>
+      <div class="section-container">
+        <div class="experience-details-container">
+          <div class="about-containers">
+
+            <div class="details-container">
+              <img
+                src="./assets/education/centennial college.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Centennial College</h3>
+              <p>2022 - Expected 2025 <br />Advanced Diploma in Software Engineering Technology</p>
+            </div>
+
+            <div class="details-container">
+              <img
+                src="./assets/education/dtu.png"
+                class="icon"
+              />
+              <h3>Technical University of Denmark</h3>
+              <p>2020 - 2022 <br />B.Sc. Bachelors Degree In Software Technology</p>
+            </div>
+          
+            <div class="details-container">
+              <img
+                src="./assets/education/cph.jpg"
+                class="icon"
+              />
+              <h3>University of Copenhagen</h3>
+              <p>2019 - 2020 <br />B.Sc. Bachelors Degree In Pharmacy</p>
+            </div>
+
+            <div class="details-container">
+              <img
+                src="./assets/education/hf2.png"
+                class="icon"
+              />
+              <h3>Vestegnen HF & VUC - Denmark</h3>
+              <p>2019<br />Upper Secondary Education</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi! my name is Maha Nasir.<br>
+              I am a person who works hard and is enthused, driven
+              by myself, dependable, and responsible. I am a
+              responsible team worker who can easily adjust 
+              to any difficult circumstances. 
+              I have the ability to operate well both
+              independently and in a collaborative setting. 
+              I can stay on task and meet deadlines even when 
+              under duress.       
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/icons/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Dive Into My</p>
+      <h1 class="title">Skills</h1> 
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/icons/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/icons/css-3.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/html-5 (1).png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/typescript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/angular.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/react.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+            </div>
+          </div>
+        
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/icons/java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/node.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/mongo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/azure.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/json.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/api.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/sp.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/c.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/icons/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+
+              <article>
+                <img
+                  src="./assets/icons/aws.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Others</h2>
+            <div class="article-container">
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/icons/python.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/icons/vscode.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/icons/vs.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/icons/github.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/icons/andriod.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/icons/ps.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/icons/ai.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                </article>
+
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <img
+        src="./assets/icons/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <br/><br/>
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+           <!-- Adding projects -->
+            <div class="project">
+             <img src="assets/projects/work1.JPG">
+             <div class="project-details">
+              <h3>Table Generator</h3>
+              <h5>HTML / CSS / JS</h5>
+              <p>Generate table by inserting desired numbers in the section "rows" and "columns".</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/TableGenerator.github.io/" target="_blank" title="Open Assignment 1"><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/TableGenerator.github.io.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work2.JPG">
+            <div class="project-details">
+              <h3>Photo Gallary</h3>
+              <h5>HTML / CSS / JS</h5>
+              <p>Interactive slideshow can be played or paused. Change the Images with next/back buttons and see the zoomed version to add favorites.</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/PhotoGallery.github.io/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/PhotoGallery.github.io.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work3.JPG">
+            <div class="project-details">
+              <h3>Canvas Game </h3>
+              <h5>HTML / CSS / JS</h5>
+              <p>Whack The MOLE! <br>
+              The intervals of appearing of the mole will get shorter, as the score raises.</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/Mole-Smasher.github.io/" target="_blank" ><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/Mole-Smasher.github.io.git"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work6.JPG">
+            <div class="project-details">
+              <h3>BabyBoo (eCommerce website)</h3>
+              <h5>HTML / CSS </h5>
+              <p>A website for babies clothes with offer cloths for both girls and boys. </p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/FinalProject.github.io/" target="_blank" ><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/FinalProject.github.io.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work4.JPG">
+            <div class="project-details">
+              <h3>Information Website</h3>
+              <h5>HTML / CSS</h5>
+              <p>Get to know about Jakob Nielsen&#180;s 5th Usability Heuristic &#8220;Error prevention&#8221</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/Information_Website.github.io/" target="_blank" ><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/Information_Website.github.io.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>                         
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work5.JPG">
+            <div class="project-details">
+              <h3>Newly launched products</h3>
+              <h5>HTML / CSS </h5>
+              <p>The website offers information about Newly launched iPhone 14 Pro Max and also direct the user to Apple&#8220;s official website.</p>
+              <div class="icon-container">
+                <a class="open-page" href="http://studentweb.cencol.ca/mnasir11/COMP213/Assignment3/Assignment3.html" target="_blank" ><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/Assignment3.github.io.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>   
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work7.JPG">
+            <div class="project-details">
+              <h3>Wildlife Importance</h3>
+              <h5>HTML / CSS </h5>
+              <p>The website gives knowledge about protected areas and articles about the topic.</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/Assignment2-MAHA.github.io/" target="_blank" ><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/Assignment2-MAHA.github.io.git"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>                       
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/work8.JPG">
+            <div class="project-details">
+              <h3>Instructor Evaluation</h3>
+              <h5>HTML / CSS </h5>
+              <p>Instructor Evaluation forn for sudents to fill out and submit.</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://mahaanasir.github.io/Assignment4.github.io/" target="_blank" ><ion-icon name="open-outline"></ion-icon></a>
+                <a class="open-page" href="https://github.com/MahaaNasir/Assignment4.github.io.git"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>    
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/movieworld.png">
+            <div class="project-details">
+                <h3>Movie Management Web Application</h3>
+                <h5>C# / HTML / CSS / JavaScript / ASP.NET Core MVC, AWS S3, AWS DynamoDB, AWS Elastic Beanstalk, Movie Management</h5>
+                <p>ASP.NET Core MVC app for a start-up to compete with Netflix, enabling users to upload, store, rate, and comment on movies using AWS services like S3, DynamoDB, and Elastic Beanstalk. </p>
+                <div class="icon-container">
+                  <a class="open-page" href="https://github.com/MahaaNasir/Movie-World.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                  <a class="open-page" href="https://youtu.be/2vGghi3UXJ8" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/aws_lab4.png">
+            <div class="project-details">
+              <h3>AWS Serverless Image Workflow</h3>
+              <h5>C# / AWS / AWS / Step Functions / Rekognition / DynamoDB / Serverless</h5>
+              <p>Serverless application using AWS Step Functions to automate image processing, including label detection with Rekognition, and storing metadata in DynamoDB.</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://github.com/MahaaNasir/AWS-Serverless-Image-Workflow.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a class="open-page" href="https://youtu.be/DbUcMQHystY?si=9QGwS0o0dHyDgVAa" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/API.png">
+            <div class="project-details">
+              <h3>Cloud Data Management API</h3>
+              <h5>C# / AWS / RESTful API /CRUD operations /AWS ECS / Google Apigee</h5>
+              <p>RESTful API for managing data stored in DynamoDB, with full CRUD operations. The API will be containerized and deployed using AWS ECS, with security and management handled through Google Apigee.</p>
+              <div class="icon-container">
+                <a class="open-page" href="https://github.com/MahaaNasir/Project-API.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a class="open-page" href="https://youtu.be/GQhWEh815qU?si=jXsWsnquEuVDbtix" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/SURVEY.png">
+            <div class="project-details">
+              <h3>Survey Site</h3>
+              <h5>Node.js, Express.js, MongoDB, JavaScript, User Authentication, Survey Management, Responsive Design, Cloud Deployment, GitHub, Heroku</h5>
+              <p>A Node.js and Express.js survey site with MongoDB for data storage, featuring user authentication, survey management, and anonymous responses. Deployed on Heroku and version-controlled with GitHub.
+              </p>
+              <div class="icon-container">
+                <a class="open-page" href="https://github.com/MahaaNasir/COMP229---Group-Project.git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a class="open-page" href="https://youtu.be/EwdVjJgv9ac?si=rlstTG5dyf6rq06r" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/courseregistration.png">
+            <div class="project-details">
+              <h3>Course Registration System with Microservices Architecture</h3>
+              <h5>Java / Microservices / Spring Boot / Eureka / JPA / MySQL / RESTful API / React / CRUD / Course Management / Student Registration</h5>
+              <p>course registration system with Spring Boot microservices, Eureka, JPA, and MySQL, featuring RESTful APIs and React apps for students and administrators.
+              </p>
+              <div class="icon-container">
+                <a class="open-page" href="https://youtu.be/SCV-X5vByDQ?si=nFvHnJ0pqthH6MoB" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="assets/projects/cruise.png">
+            <div class="project-details">
+              <h3>Cruise Booking App: An Enterprise Application Using Spring MVC and JPA</h3>
+              <h5>Java Spring MVC / JPA / MySQL / CRUD / Web App / Booking System / Responsive Design / Form Validation</h5>
+              <p>Cruise Booking App using Spring MVC and JPA for managing cruise bookings with MySQL. The app will feature full CRUD operations and responsive design.
+              </p>
+              <div class="icon-container">
+                <a class="open-page" href="https://youtu.be/ZYrtebhd8oo?si=aHRv7g8SpFlb-SRO" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+              </div> 
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+   
+    <img
+      src="./assets/icons/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+      
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container hover-container">
+        <a href="mailto:mahanasir25392@gmail.com">
+          <img
+            src="./assets/brown-icons/mail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="mailto:mahanasir25392@gmail.com">Email</a></p>
+      </div>
+
+      <div class="contact-info-container hover-container">
+        <a href="https://discord.com/users/763493395896467496" target="_blank" rel="noopener noreferrer">
+          <img
+            src="./assets/brown-icons/discord.png"
+            alt="Discord icon"
+            class="icon contact-icon discord-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="https://discord.com/users/763493395896467496" target="_blank" rel="noopener noreferrer">Discord</a></p>
+      </div>
+      
+      <div class="contact-info-container hover-container">
+        <a href="https://linkedin.com/in/mahaanasir" target="_blank" rel="noopener noreferrer">
+          <img
+            src="./assets/brown-icons/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon linkedin-icon"
+          />
+        </a>
+        <p class="hover-text"><a href="https://linkedin.com/in/mahaanasir" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      </div>
+      
+      <div class="contact-info-container hover-container">
+        <a href="https://github.com/MahaaNasir" target="_blank" rel="noopener noreferrer">
+          <img
+            src="./assets/brown-icons/github.png"
+            alt="GitHub icon"
+            class="icon contact-icon github-icon"
+          />
+        </a>
+        <p class="hover-text">
+          <a href="https://github.com/MahaaNasir" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </div>  
+    </div> 
+  </section>
+  
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Education</a></li>
+            <li><a href="#  ">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Maha Nasir. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+  </body>
+</html>

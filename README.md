@@ -8,7 +8,7 @@ This website highlights my projects, skills, and work experience. It is crafted 
 
 Check out the live site here:
 
-[https://mahanasir.github.io/portfolio/](https://MahaaNasir.github.io/portfolio/)
+[https://MahaaNasir.github.io/portfolio/](https://MahaaNasir.github.io/portfolio/)
 
 ## ✨ Features
 
